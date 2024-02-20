@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val dice = Dice(6)
         val roll = dice.roll()
-        binding.textView.text = roll.toString()
+        binding.tvResult.text = roll.toString()
     }
 }

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">game cubes</string>
     <string name="btn_roll_text">roll the dice</string>
-    <string name="text_value">Yout value:</string>
+    <string name="text_value">Your value:</string>
 </resources>
