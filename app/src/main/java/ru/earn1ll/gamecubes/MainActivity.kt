@@ -1,6 +1,8 @@
 package ru.earn1ll.gamecubes
 
 import android.annotation.SuppressLint
+import android.media.MediaParser
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -14,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.button.setOnClickListener {
             rollDice()
+            sound()
 
         }
 
@@ -41,5 +44,8 @@ class MainActivity : AppCompatActivity() {
             6->  binding.imDice2.setImageResource(R.drawable.dice_six)
         }
         binding.tvResult.text = (roll + roll2).toString()
+    }
+    private fun sound(){
+        MediaPlayer.create(this,R.raw.sound1).start()
     }
 }
