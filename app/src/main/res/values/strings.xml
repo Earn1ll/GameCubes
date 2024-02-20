@@ -2,4 +2,6 @@
     <string name="app_name">game cubes</string>
     <string name="btn_roll_text">roll the dice</string>
     <string name="text_value">Your value:</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
 </resources>
